@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/dist/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/dist/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/dist/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/dist/favicon/site.webmanifest" />
+    <title>Quiz | Home</title>
+    <link rel="stylesheet" href="/dist/css/start.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="welcome_text">
+        <form
+          class="welcome_form"
+          name="welcome_form"
+          onsubmit="submitForm(event)"
+        >
+          <label for="#">Name<input id="nmr" type="text" name="name" required /></label>
+
+          <label for="#">DOB <input type="date" name="name" required /></label>
+
+          <button type="submit">Start Quiz</button>
+        </form>
+      </div>
+    </div>
+
+    <!--Quiz  JavaScript-->
+    <script src="dist/js/quiz.js"></script>
+  </body>
+</html>
